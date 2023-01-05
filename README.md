@@ -8,10 +8,10 @@
 
 ## 🔧 Ferramentas e Tecnologias
 
-- Postman [Clique aqui para acessar a pasta](../PostmanCollection)
+- Postman 
 - JUnit
 - Allure Framework
-- Json Server  [Clique aqui para acessar a pasta](../JsonServer)
+- Json Server  
 
 ## 🔗 Contato
 
