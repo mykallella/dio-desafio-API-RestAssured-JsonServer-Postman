@@ -55,9 +55,16 @@
 		},
 		{
 			"name": "Booking - GetBooking",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "{{url}}/booking/1832",
 					"host": [
@@ -89,7 +96,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"lastname\": \"barros\",\r\n    \"firstname\": \"myrela\",\r\n    \"totalprice\": 12896.88,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-02\",\r\n        \"checkout\": \"2018-01-03\"\r\n    },\r\n    \"additionalneeds\": \"\"\r\n}",
+					"raw": "{\r\n    \"lastname\": \"Barros\",\r\n    \"firstname\": \"Myrela\",\r\n    \"totalprice\": 12896.88,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-02\",\r\n        \"checkout\": \"2018-01-15\"\r\n    },\r\n    \"additionalneeds\": \"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -177,13 +184,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/booking/2722",
+					"raw": "{{url}}/booking/765",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"booking",
-						"2722"
+						"765"
 					]
 				}
 			},
@@ -274,10 +281,6 @@
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "{{url}}/booking/348",
 					"host": [

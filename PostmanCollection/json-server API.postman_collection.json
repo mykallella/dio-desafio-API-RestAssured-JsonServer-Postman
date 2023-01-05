@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"oliviera@mail.com\",\r\n  \"password\": \"bestPassw0rd\"\r\n}",
+					"raw": "{\r\n  \"email\": \"olivierau@mail.com\",\r\n  \"password\": \"bestPassw0rd\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -41,7 +41,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"oliviera@mail.com\",\r\n  \"password\": \"bestPassw0rd\"\r\n}",
+					"raw": "{\r\n  \"email\": \"olivierae@mail.com\",\r\n  \"password\": \"bestPassw0rd\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -107,14 +107,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/users",
+					"raw": "http://localhost:3000/bookings",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"users"
+						"bookings"
 					]
 				}
 			},
@@ -126,15 +126,20 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/users/12",
+					"raw": "http://localhost:3000/bookings?firstname=Myrela",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"users",
-						"12"
+						"bookings"
+					],
+					"query": [
+						{
+							"key": "firstname",
+							"value": "Myrela"
+						}
 					]
 				}
 			},
@@ -157,7 +162,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"lastname\": \"Barros\",\r\n    \"firstname\": \"Myrela\",\r\n    \"totalprice\": 12896.88,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-02\",\r\n        \"checkout\": \"2018-01-15\"\r\n    },\r\n    \"additionalneeds\": \"\"\r\n}",
+					"raw": "{\r\n    \"lastname\": \"Barros\",\r\n    \"firstname\": \"Joaquim\",\r\n    \"totalprice\": 12896.88,\r\n    \"depositpaid\": true,\r\n    \"bookingdates\": {\r\n        \"checkin\": \"2018-01-02\",\r\n        \"checkout\": \"2018-01-15\"\r\n    },\r\n    \"additionalneeds\": \"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -188,7 +193,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJhQG1haWwuY29tIiwiaWF0IjoxNjcyNzI1MDg5LCJleHAiOjE2NzI3Mjg2ODksInN1YiI6IjE4In0.U0VJsYhKa_8K1oKiAbfjSX-FUffWtsJMtcym4GZkKRM",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJhZUBtYWlsLmNvbSIsImlhdCI6MTY3MjczMTkwMCwiZXhwIjoxNjcyNzM1NTAwLCJzdWIiOiIyNiJ9.PMtV9uoB7HPsIBTWqfPXWsfqu3nDYWDZa6a5y5gF9Yc",
 						"type": "text"
 					}
 				],
@@ -202,7 +207,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/bookings/12",
+					"raw": "http://localhost:3000/bookings/18",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -210,7 +215,7 @@
 					"port": "3000",
 					"path": [
 						"bookings",
-						"12"
+						"18"
 					]
 				}
 			},
@@ -242,13 +247,13 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJhQG1haWwuY29tIiwiaWF0IjoxNjcyNzI1MDg5LCJleHAiOjE2NzI3Mjg2ODksInN1YiI6IjE4In0.U0VJsYhKa_8K1oKiAbfjSX-FUffWtsJMtcym4GZkKRM",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJhQG1haWwuY29tIiwiaWF0IjoxNjcyNzMwODg5LCJleHAiOjE2NzI3MzQ0ODksInN1YiI6IjE4In0.t2sb2jpJTdll2FvJhaBiF59RLkvoGWcnXdhIVzQAnTc",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstname\" : \"Myrela\",\r\n    \"lastname\" : \"Brown\"\r\n}",
+					"raw": "{\r\n    \"firstname\" : \"João\",\r\n    \"lastname\" : \"Brown\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -282,21 +287,12 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJhQG1haWwuY29tIiwiaWF0IjoxNjcyNzI1MDg5LCJleHAiOjE2NzI3Mjg2ODksInN1YiI6IjE4In0.U0VJsYhKa_8K1oKiAbfjSX-FUffWtsJMtcym4GZkKRM",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJhZUBtYWlsLmNvbSIsImlhdCI6MTY3MjczMTkwMCwiZXhwIjoxNjcyNzM1NTAwLCJzdWIiOiIyNiJ9.PMtV9uoB7HPsIBTWqfPXWsfqu3nDYWDZa6a5y5gF9Yc",
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
-					"raw": "http://localhost:3000/bookings/1",
+					"raw": "http://localhost:3000/bookings/18",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -304,7 +300,7 @@
 					"port": "3000",
 					"path": [
 						"bookings",
-						"1"
+						"18"
 					]
 				}
 			},
