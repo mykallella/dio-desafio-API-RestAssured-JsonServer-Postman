@@ -11,6 +11,10 @@ import io.restassured.mapper.ObjectMapper;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.*;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.config.LogConfig.logConfig;
@@ -40,11 +44,15 @@ import static org.hamcrest.Matchers.*;
                     faker.internet().password(8,10),
                     faker.phoneNumber().toString());
 
-            //String chekin = faker.date.recent(10);
-            //String checkout = faker.date.soon(10);
+            LocalDate todayDate = LocalDate.now();
+            String chekin = String.valueOf(todayDate.minusWeeks(2));
+            String checkout = String.valueOf(todayDate.plusDays(8));
 
-            //bookingDates = new BookingDates(chekin, checkout);
-            bookingDates = new BookingDates("2018-01-02", "2018-01-03");
+            String checkinFormattedDate = chekin.replaceAll("/","-");
+            String checkoutFormattedDate = checkout.replaceAll("/","-");
+
+            bookingDates = new BookingDates(checkinFormattedDate, checkoutFormattedDate);
+            //bookingDates = new BookingDates("2018-01-02", "2018-01-03");
 
             booking = new Booking(user.getFirstName(), user.getLastName(),
                     (float)faker.number().randomDouble(2, 50, 100000),
@@ -65,8 +73,8 @@ import static org.hamcrest.Matchers.*;
         public void authToken(){
             String payload =
                     "{\n" +
-                            "   \"email\" : \"carolllinnaa@gmail.com\",   \n  " +
-                            "   \"password\" : \"myrela1234\"  \n  " +
+                            "   \"email\" : \"myrelacaroline@mail.com\",   \n  " +
+                            "   \"password\" : \"myrela123\"  \n  " +
                             "}";
             Response response = request
                     .contentType(ContentType.JSON)
@@ -84,8 +92,8 @@ import static org.hamcrest.Matchers.*;
         public void loginToken(){
             String payload =
                     "{\n" +
-                            "   \"email\" : \"carolllinnaa@gmail.com\",   \n  " +
-                            "   \"password\" : \"myrela1234\"  \n  " +
+                            "   \"email\" : \"myrelacaroline@mail.com\",   \n  " +
+                            "   \"password\" : \"myrela123\"  \n  " +
                             "}";
             Response response = request
                     .contentType(ContentType.JSON)
@@ -116,7 +124,7 @@ import static org.hamcrest.Matchers.*;
         public void  getUserByEmail_BookingExists_ReturnOk(){
             request
                     .when()
-                    .queryParam("email", "myrela@mail.com")
+                    .queryParam("email", "myrelacaroline@mail.com")
                     .get("/users")
                     .then()
                     .assertThat().statusCode(200).and().time(lessThan(2000L))
