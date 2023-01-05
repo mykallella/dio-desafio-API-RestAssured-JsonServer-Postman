@@ -2,7 +2,7 @@
 
 ![preview](./github/preview.png)
  
- > Explorando o Rest Assured para automação de testes de API
+ > Explorando o Rest Assured para automação de testes de API (Restful Booker API e Json Server)
 
  Projeto construído durante o Bootcamp **GFT Quality Assurance Para Mulheres** da **DIO**.
 
