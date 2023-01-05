@@ -1,0 +1,331 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$RasZAjp5ILvutyNjrmlePOVxYYopN2shYmFfCV/6PFJkvY3ndBVre",
+      "id": 1
+    },
+    {
+      "email": "myrela@mail.com",
+      "password": "$2a$10$9WcGrAS6.9vOdHarL68DuOkd2LsWOKa4KtpZwD4vKiNe2HxIeOrFa",
+      "id": 2
+    },
+    {
+      "email": "myrela@email.com",
+      "password": "$2a$10$JfgL08Zx.4qYe3vs6C0pkOW0goO/q6wZsOQekDOKEk68Nj6qUX.2.",
+      "id": 3
+    },
+    {
+      "email": "myrela@yahoo.com",
+      "password": "$2a$10$GYQcd/TTf8/IAJJv33g7lukPkE7TzDh43nV.1oUSyEBX.hmVxU8Ri",
+      "id": 4
+    },
+    {
+      "email": "myrela@gmail.com",
+      "password": "$2a$10$.MclfH1eY7Wrl5fHY1.RHO8tYaqgoQ1OVReByP3nwjviJH854Hz2.",
+      "id": 5
+    },
+    {
+      "email": "myrelaa@gmail.com",
+      "password": "$2a$10$DtMxuXJFMUgwrCWQiBMiouhjR.QgZnDul/8Sw0cNUlQ0TfUjADbJ2",
+      "id": 6
+    },
+    {
+      "email": "myrellaa@gmail.com",
+      "password": "$2a$10$zRC.YfY81ZcmV7LM9SduPuzjgQO.7X7wc5BHaVq/m7n5aXv0ZP2g2",
+      "id": 7
+    },
+    {
+      "email": "myrelllaa@gmail.com",
+      "password": "$2a$10$Fx9JFY7TU2oj9LN2i0Dk5Om5C2NGdr/AzaSUk/cJ6jDUGjosIPy1y",
+      "id": 8
+    },
+    {
+      "email": "myrelllaaa@gmail.com",
+      "password": "$2a$10$45AwyMQUHvXB7u8iODLVyu/vi94iw7vj4Ni8Q3cbAU4EdMVy9ecFW",
+      "id": 9
+    },
+    {
+      "email": "caroline@gmail.com",
+      "password": "$2a$10$YvNjmi02xP2od51V48oupOo/WBeK4IDSE4MwgxsGl4Tm3.QMEs9i2",
+      "id": 10
+    },
+    {
+      "email": "carolinee@gmail.com",
+      "password": "$2a$10$IvIu0/zsnjYd8RhB1Zc5bOXiokmVbgMA2htppu.8cAOh1uKI/PkP6",
+      "id": 11
+    },
+    {
+      "email": "olivierr@mail.com",
+      "password": "$2a$10$8PlCT7PAG36jYxHwoQCtGO4kvPz9dZSWlTjDPfLpCF6F/z38ycEla",
+      "id": 12
+    },
+    {
+      "email": "carolineee@gmail.com",
+      "password": "$2a$10$syZiL5IpoL3dlapA140JlOwNahjvgOVG9/tg0aqchytIPeM80eTXG",
+      "id": 13
+    },
+    {
+      "email": "carolineeee@gmail.com",
+      "password": "$2a$10$7dfTmnvvlFSo54L9a3RRqert.Ufso8...kptCXbZoCoY/tIkdJTqC",
+      "id": 14
+    },
+    {
+      "email": "carolin@gmail.com",
+      "password": "$2a$10$64I0hLwQz14EMeBySHJoyOw6oBA6ZjLQMO4UUkat9DRdKSiQTAB1G",
+      "id": 15
+    },
+    {
+      "email": "caroli@gmail.com",
+      "password": "$2a$10$duDk2vBcNiZlMPJe4UWygulGW6V8.MJL.n/bo1v9oUCdl3V4VqZIK",
+      "id": 16
+    },
+    {
+      "email": "olivierra@mail.com",
+      "password": "$2a$10$1MDPAkVM7KmSZ4dj7dCpduUlkFsi.KOtFiGWuC7a8lMXqsXFP8nyS",
+      "id": 17
+    },
+    {
+      "email": "oliviera@mail.com",
+      "password": "$2a$10$8nv1cVQnNMggce8bFDPuweax7W1RhAr3vCSs9yIAYT5SGjf44enau",
+      "id": 18
+    },
+    {
+      "email": "carol@gmail.com",
+      "password": "$2a$10$muGoYrBpPBwClcFhIRlbe.RkayLQ1J7Khph.Ivj9tHXV6CmrF1.qm",
+      "id": 19
+    },
+    {
+      "email": "carollly@gmail.com",
+      "password": "$2a$10$4QEoCg/SAirISFQ9ODsxNup7tXYEWXR8gSaV2wJ2.iW02fU43MkQq",
+      "id": 20
+    },
+    {
+      "email": "carolll@gmail.com",
+      "password": "$2a$10$MZqyxRPPjHNQjJzVNWIj0ub66FbBCjkO2Ew5rxCjNmA1jobcVyrDq",
+      "id": 21
+    },
+    {
+      "email": "carollla@gmail.com",
+      "password": "$2a$10$AFlkJWsPQt7Lf0FOHUFZGeG20773AjKc02GWAv9ivRjRUmaHOEqpe",
+      "id": 22
+    },
+    {
+      "email": "carollle@gmail.com",
+      "password": "$2a$10$Q9xlQGVgCpfhm/1U0myEOeEgrCRzgvh22IY7LTk4/A5N5VHWjRiSK",
+      "id": 23
+    },
+    {
+      "email": "carollli@gmail.com",
+      "password": "$2a$10$yzVW8rWV4H4JeVv/qRc/N.qLb/rbq1b293nzKcApRmqnZAKcEN85a",
+      "id": 24
+    },
+    {
+      "email": "carolllin@gmail.com",
+      "password": "$2a$10$I5nfiExupWXZcd5Z5wd2HudB8wiIoJp68tTwUYjVcRx49sFR0a31m",
+      "id": 25
+    },
+    {
+      "email": "olivierae@mail.com",
+      "password": "$2a$10$ltXNSzVBAwaJjZLSWM6hyeiJiKCyWHGHPuH8hpeLj0b090bXYAlkm",
+      "id": 26
+    },
+    {
+      "email": "olivierau@mail.com",
+      "password": "$2a$10$Pqeb9utcDT64CXAOfzcY.OZupQYHU.e19Y/yejHQg/5qRHZ9.wega",
+      "id": 27
+    },
+    {
+      "email": "carollline@gmail.com",
+      "password": "$2a$10$/MbzsdJfBpihrC1MO0C3Zeg4F2ax.wYUCBmI8uvG9TCa25O/takPm",
+      "id": 28
+    },
+    {
+      "email": "carolllinn@gmail.com",
+      "password": "$2a$10$IxsDv0zxsSBCPBdXQBW7XuwQDbsZu.D7FQc9mCi4KbWYxVYK/Ycny",
+      "id": 29
+    },
+    {
+      "email": "carolllinna@gmail.com",
+      "password": "$2a$10$Nd5CqotjaW42KCCAjfHJ0..7Yj9oC2UyI302ePIMt7.zL8BzXFaae",
+      "id": 30
+    }
+  ],
+  "bookings": [
+    {      
+      "booking": {
+        "firstname": "Myrela",
+        "lastname": "Caroline",
+        "totalprice": 456,
+        "depositpaid": true,
+        "bookingdates": {
+          "checkin": "2020-04-01",
+          "checkout": "2020-04-11"
+        },
+        "additionalneeds": "Breakfast",
+        "id": 2
+      }      
+    },
+    {
+      "lastname": "Hills",
+      "firstname": "Elza",
+      "totalprice": 39313.56,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 3      
+    },
+    {
+      "lastname": "Prosacco",
+      "firstname": "Archie",
+      "totalprice": 60700.69,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 4      
+    },
+    {
+      "lastname": "Barros",
+      "firstname": "Myrela",
+      "totalprice": 12896.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-15"
+      },
+      "additionalneeds": "",
+      "id": 6      
+    },
+    {
+      "lastname": "Barros",
+      "firstname": "Myrela",
+      "totalprice": 12896.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-15"
+      },
+      "additionalneeds": "",
+      "id": 7
+    },
+    {
+      "lastname": "Cronin",
+      "firstname": "Cletus",
+      "totalprice": 51400.57,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 8
+    },
+    {
+      "lastname": "Barros",
+      "firstname": "Myrela",
+      "totalprice": 12896.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-15"
+      },
+      "additionalneeds": "",
+      "id": 9
+    },
+    {
+      "lastname": "Walter",
+      "firstname": "Taylor",
+      "totalprice": 83062.68,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 10
+    },
+    {
+      "lastname": "Barros",
+      "firstname": "Myrela",
+      "totalprice": 12896.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-15"
+      },
+      "additionalneeds": "",
+      "id": 11
+    },
+    {
+      "lastname": "Larson",
+      "firstname": "Hildegarde",
+      "totalprice": 21440.66,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 13
+    },
+    {
+      "lastname": "Barros",
+      "firstname": "Myrela",
+      "totalprice": 12896.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-15"
+      },
+      "additionalneeds": "",
+      "id": 14
+    },
+    {
+      "lastname": "Turcotte",
+      "firstname": "Sunny",
+      "totalprice": 83221.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 15
+    },
+    {
+      "lastname": "Rutherford",
+      "firstname": "Milan",
+      "totalprice": 85189.74,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-03"
+      },
+      "additionalneeds": "",
+      "id": 16
+    },
+    {
+      "lastname": "Barros",
+      "firstname": "Myrela",
+      "totalprice": 12896.88,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-02",
+        "checkout": "2018-01-15"
+      },
+      "additionalneeds": "",
+      "id": 17
+    }
+  ],
+  "ping": [
+    {
+      "Resposta": "Servidor Funcionando!"
+    }
+  ]
+}
