@@ -1,6 +1,6 @@
 # DIO | GFT Quality Assurance Para Mulheres
 
-![preview](./github/preview.png)
+![preview](./preview.png)
  
  > Explorando o Rest Assured para automação de testes de API (Restful Booker API e Json Server)
 
