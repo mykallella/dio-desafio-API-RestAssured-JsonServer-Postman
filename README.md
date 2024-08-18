@@ -9,8 +9,9 @@
  
 ## 📚 Tópicos
 
-- Java com Rest Assured para realização de requisições
-- Automação de Testes de API consumindo a API pública 'restful-booker' (https://restful-booker.herokuapp.com/apidoc/index.html)
+- Postman para requisições manuais
+- Java com Rest Assured para requisições automatizadas
+- Testes de API consumindo a API pública 'restful-booker' (https://restful-booker.herokuapp.com/apidoc/index.html)
 
 ## 🔧 Ferramentas e Tecnologias
 
